@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/img"
+    tools:context=".PapaFragment">
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline2"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.317" />
+
+    <TextView
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="안녕하십니까 아버지 저 이용진입니다.\n 아버지, 요즘 무기력하지 않으신가요? 저는 요즘 무기력한 날들이 며칠 있었는데 매우 공허하더라고요. 제가 어머니도 마찬가지고 아버지에게도 할 말은 조금 더 자신의 인생을 즐기셨으면 좋겠습니다. 나중에 돈 많이 벌면 하고싶은신거 다 해드릴테니깐 조금만 참으세요. 엄마랑도 사이좋게 알죠? ^^ 맛있는 것도 드시고 공허함을 떨쳐내고 재밌게 삽시다! 우리 모두 이용진 가족 화이팅! 아버지 사랑해요~\n 사랑하는 아들 이용진 올림"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:layout_marginStart="30dp"
+        android:layout_marginEnd="30dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/guideline2" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

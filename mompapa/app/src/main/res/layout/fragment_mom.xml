@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/img"
+    tools:context=".MomFragment">
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline2"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.317" />
+
+    <TextView
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="안녕하십니까 어무니 저 이용진입니다.\n어머니의 아들로 살아온지 어언 18년 정도 되었네요. 제가 18년동안 큰만큼 어머니도 같이 컸습니다. 어머니의 올해 목표는 무엇이였나요? 또한 즐거운 한해셨나요? 제가 보기에는 이번 한 해는 엄마가 많이 행복하지 않은 것 같습니다. 저는 엄마가 행복하길 바랍니다. 진심으로요. 이번 해에는 항상 남을위하기보다는 먼저 자신을 살펴보는 한 해가 되셨으면 좋겠습니다. 어머니 만수무강하시고 행복하세요♥️\n 사랑하는 아들 이용진 올림"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:layout_marginStart="30dp"
+        android:layout_marginEnd="30dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/guideline2" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
